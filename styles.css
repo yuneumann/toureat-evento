@@ -11,15 +11,18 @@ body *{
     padding: 0;
 }
 nav{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 0;
     display: flex;
     flex-wrap: wrap; 
     align-items: center;
 }
     .nav-home{
         flex: 1 1 30%;
+    }
+    .nav-home img{
+        width: 150px;
     }
     .nav-menu{
         text-align: right;
